@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:test_cal_widget/constants/assets.dart';
-import 'package:test_cal_widget/widgets/grid_view_example.dart';
-import 'package:test_cal_widget/widgets/list_view_example.dart';
-import 'package:test_cal_widget/widgets/main_app_card.dart';
+import 'package:test_hasibaat_widget/constants/assets.dart';
+import 'package:test_hasibaat_widget/widgets/grid_view_example.dart';
+import 'package:test_hasibaat_widget/widgets/list_view_example.dart';
+import 'package:test_hasibaat_widget/widgets/main_app_card.dart';
 
 void main() {
   runApp(const MyApp());
