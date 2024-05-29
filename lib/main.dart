@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_cal_widget/constants/assets.dart';
+import 'package:test_cal_widget/widgets/grid_view_example.dart';
+import 'package:test_cal_widget/widgets/list_view_example.dart';
 import 'package:test_cal_widget/widgets/main_app_card.dart';
 
 void main() {
@@ -81,6 +83,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             ),
+            const GridViewExample(),
+            const ListViewExample(),
             const SizedBox(height: 20),
             // TEXT FORM FIELD
             MainAppCard(
