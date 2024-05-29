@@ -38,12 +38,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFCB2226),
-      appBar: AppBar(
-        backgroundColor: const Color(0xFFCB2226),
-        title: Text(widget.title),
-      ),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.all(24.0),
+        padding: const EdgeInsets.all(24.0).copyWith(
+          top: MediaQuery.viewPaddingOf(context).top + 24,
+          bottom: MediaQuery.viewPaddingOf(context).bottom + 24,
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
