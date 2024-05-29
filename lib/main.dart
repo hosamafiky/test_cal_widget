@@ -121,6 +121,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 onChanged: (value) {},
               ),
             ),
+            const SizedBox(height: 20),
+            // BIG TEXT CARD
+            MainAppCard(
+              padding: const EdgeInsets.all(16),
+              borderRadius: BorderRadius.circular(8),
+              offset: const Offset(4, 5),
+              frontCardBorder: Border.all(color: const Color(0xFFED1C24), width: 1),
+              backCardBorder: Border.all(color: const Color(0xFFED1C24), width: 1),
+              child: const Text(
+                ' لقد قمت بـ 5 جلسات في لعبة Tic Tac Toe وفزت في 3 منها وخسرت في 2 منها وتعادلت في جلسة واحدة وبذلك تكون نسبة فوزك 60% ونسبة خسارتك 40%  لقد قمت بـ 5 جلسات في لعبة Tic Tac Toe وفزت في 3 منها وخسرت في 2 منها وتعادلت في جلسة واحدة وبذلك تكون نسبة فوزك 60% ونسبة خسارتك 40%  لقد قمت بـ 5 جلسات في لعبة Tic Tac Toe وفزت في 3 منها وخسرت في 2 منها وتعادلت في جلسة واحدة وبذلك تكون نسبة فوزك 60% ونسبة خسارتك 40%',
+              ),
+            ),
           ],
         ),
       ),
