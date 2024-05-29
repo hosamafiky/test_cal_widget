@@ -78,7 +78,7 @@ class _MainAppCardState extends State<MainAppCard> {
               ),
             ),
             NotificationListener<SizeChangedLayoutNotification>(
-              onNotification: (notification) {
+              onNotification: (_) {
                 WidgetsBinding.instance.addPostFrameCallback((_) {
                   calculateWidgetHeight();
                 });
